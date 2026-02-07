@@ -1,0 +1,554 @@
+{
+	"id": "713976aa-7be9-4b00-a062-c5f5961056f3",
+	"name": "Mechanic Shop",
+	"timestamp": "2026-02-07T16:43:00.940Z",
+	"collection_id": "51640488-6c648351-3ffe-4113-9523-fef873190702",
+	"folder_id": 0,
+	"environment_id": "0",
+	"totalPass": 0,
+	"delay": 0,
+	"persist": true,
+	"status": "error",
+	"startedAt": "2026-02-07T16:42:58.351Z",
+	"totalFail": 0,
+	"results": [
+		{
+			"id": "8752f3da-0e20-4fc0-8f50-f9c864593a22",
+			"name": "Heatlh check",
+			"url": "http://127.0.0.1:5000/",
+			"time": 3,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				3
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "548cc954-4deb-402e-9b46-fa4946a13548",
+			"name": "Create Customer",
+			"url": "http://127.0.0.1:5000/customers/",
+			"time": 91,
+			"responseCode": {
+				"code": 201,
+				"name": "CREATED"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				91
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "b1b608fa-d216-4db9-b5d7-fd27ed16e873",
+			"name": "Customer Login",
+			"url": "http://127.0.0.1:5000/customers/login",
+			"time": 84,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				84
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "996e47e5-6348-4ba3-ae11-8e42633a9bc6",
+			"name": "Create Mechanic",
+			"url": "http://127.0.0.1:5000/mechanics/",
+			"time": 9,
+			"responseCode": {
+				"code": 201,
+				"name": "CREATED"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				9
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "5a8e67da-6002-4e5d-950b-2fe02e2f1978",
+			"name": "Create Service Ticket",
+			"url": "http://127.0.0.1:5000/service-tickets/",
+			"time": 14,
+			"responseCode": {
+				"code": 201,
+				"name": "CREATED"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				14
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "73b59052-4ded-4596-9f4f-ba2c144217cf",
+			"name": "Assign Mechanic",
+			"url": "http://127.0.0.1:5000/service-tickets/6/assign-mechanic/8",
+			"time": 12,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				12
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "63480bd8-76a7-4a8d-84b4-db58e8ba1a2d",
+			"name": "Bulk Edit Mechanics",
+			"url": "http://127.0.0.1:5000/service-tickets/6/edit",
+			"time": 7,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				7
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "006b3ca3-7f6c-48a1-91b2-e9362f9da39e",
+			"name": "Remove Mechanic",
+			"url": "http://127.0.0.1:5000/service-tickets/6/edit",
+			"time": 11,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				11
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "e7c77848-7a03-42b4-958c-46129f4ce769",
+			"name": "Add Mechanic Again",
+			"url": "http://127.0.0.1:5000/service-tickets/6/edit",
+			"time": 11,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				11
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "e0c98f95-9ac2-4c40-bba2-ea384f6990b8",
+			"name": "Mechanics Leaderboard",
+			"url": "http://127.0.0.1:5000/mechanics/leaderboard/most-tickets",
+			"time": 5,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				5
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "d017846f-ddf4-4f3b-8b14-4a92edaee58c",
+			"name": "Create Inventory",
+			"url": "http://127.0.0.1:5000/inventory/",
+			"time": 9,
+			"responseCode": {
+				"code": 201,
+				"name": "CREATED"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				9
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "6be6fc9e-091e-4814-bc8f-6682f7470df8",
+			"name": "Create Inventory 2",
+			"url": "http://127.0.0.1:5000/inventory/",
+			"time": 6,
+			"responseCode": {
+				"code": 201,
+				"name": "CREATED"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				6
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "a2b5cea9-6c46-4068-96a1-ebc7456ab394",
+			"name": "Add Inventory",
+			"url": "http://127.0.0.1:5000/service-tickets/5/add-part/4",
+			"time": 10,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				10
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "c6b0d41f-284c-4fc9-8a1d-84d204ebc5ea",
+			"name": "Add Inventory 2",
+			"url": "http://127.0.0.1:5000/service-tickets/5/add-part/5",
+			"time": 57,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				57
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "041f3ecc-1ea8-441f-9086-86cef951289b",
+			"name": "Get Customer 8 Tickets",
+			"url": "http://127.0.0.1:5000/customers/my-tickets",
+			"time": 3,
+			"responseCode": {
+				"code": 401,
+				"name": "UNAUTHORIZED"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				3
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "b8f6c32d-7a15-4bee-8106-23d299bcb663",
+			"name": "Update Ticket",
+			"url": "http://127.0.0.1:5000//service-tickets/6",
+			"time": 11,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				11
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "b045b3ad-bdd0-4bce-a314-8819daa65edf",
+			"name": "Confirm Ticket Final State",
+			"url": "http://127.0.0.1:5000/service-tickets/",
+			"time": 8,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				8
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "2f1ca1d7-27fb-4584-9550-873db55cf4b3",
+			"name": "Get All customers",
+			"url": "http://127.0.0.1:5000/customers/",
+			"time": 6,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				6
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "81df73b7-f0f1-432d-a44c-c7c28411f133",
+			"name": "Get Customer by ID",
+			"url": "http://127.0.0.1:5000/customers/9",
+			"time": 4,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				4
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "41ec6e82-0fe0-4451-ba28-bbf0d689c6ce",
+			"name": "Update Customer",
+			"url": "http://127.0.0.1:5000/customers/9",
+			"time": 3,
+			"responseCode": {
+				"code": 401,
+				"name": "UNAUTHORIZED"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				3
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "880780c1-b3a4-405c-b1b2-d2412fc3f295",
+			"name": "Get All Mechanics",
+			"url": "http://127.0.0.1:5000/mechanics/",
+			"time": 4,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				4
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "18332b67-f64c-4174-8070-5c5672fb12b3",
+			"name": "Update Mechanic",
+			"url": "http://127.0.0.1:5000/mechanics/8",
+			"time": 9,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				9
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "d2258bc0-c0a8-4eb6-9792-4077f7dec964",
+			"name": "Get All Service Tickets",
+			"url": "http://127.0.0.1:5000/service-tickets/",
+			"time": 6,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				6
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "bbcbec22-4547-4425-b6d9-4cd7d6f0061e",
+			"name": "Get Mechanic by ID",
+			"url": "http://127.0.0.1:5000/mechanics/8",
+			"time": 4,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				4
+			],
+			"allTests": [
+				{}
+			]
+		}
+	],
+	"count": 1,
+	"totalTime": 387,
+	"collection": {
+		"requests": [
+			{
+				"id": "8752f3da-0e20-4fc0-8f50-f9c864593a22",
+				"method": "GET"
+			},
+			{
+				"id": "548cc954-4deb-402e-9b46-fa4946a13548",
+				"method": "POST"
+			},
+			{
+				"id": "b1b608fa-d216-4db9-b5d7-fd27ed16e873",
+				"method": "POST"
+			},
+			{
+				"id": "996e47e5-6348-4ba3-ae11-8e42633a9bc6",
+				"method": "POST"
+			},
+			{
+				"id": "5a8e67da-6002-4e5d-950b-2fe02e2f1978",
+				"method": "POST"
+			},
+			{
+				"id": "73b59052-4ded-4596-9f4f-ba2c144217cf",
+				"method": "PUT"
+			},
+			{
+				"id": "63480bd8-76a7-4a8d-84b4-db58e8ba1a2d",
+				"method": "PUT"
+			},
+			{
+				"id": "006b3ca3-7f6c-48a1-91b2-e9362f9da39e",
+				"method": "PUT"
+			},
+			{
+				"id": "e7c77848-7a03-42b4-958c-46129f4ce769",
+				"method": "PUT"
+			},
+			{
+				"id": "e0c98f95-9ac2-4c40-bba2-ea384f6990b8",
+				"method": "GET"
+			},
+			{
+				"id": "d017846f-ddf4-4f3b-8b14-4a92edaee58c",
+				"method": "POST"
+			},
+			{
+				"id": "6be6fc9e-091e-4814-bc8f-6682f7470df8",
+				"method": "POST"
+			},
+			{
+				"id": "a2b5cea9-6c46-4068-96a1-ebc7456ab394",
+				"method": "PUT"
+			},
+			{
+				"id": "c6b0d41f-284c-4fc9-8a1d-84d204ebc5ea",
+				"method": "PUT"
+			},
+			{
+				"id": "041f3ecc-1ea8-441f-9086-86cef951289b",
+				"method": "GET"
+			},
+			{
+				"id": "b8f6c32d-7a15-4bee-8106-23d299bcb663",
+				"method": "PUT"
+			},
+			{
+				"id": "b045b3ad-bdd0-4bce-a314-8819daa65edf",
+				"method": "GET"
+			},
+			{
+				"id": "2f1ca1d7-27fb-4584-9550-873db55cf4b3",
+				"method": "GET"
+			},
+			{
+				"id": "81df73b7-f0f1-432d-a44c-c7c28411f133",
+				"method": "GET"
+			},
+			{
+				"id": "41ec6e82-0fe0-4451-ba28-bbf0d689c6ce",
+				"method": "PUT"
+			},
+			{
+				"id": "880780c1-b3a4-405c-b1b2-d2412fc3f295",
+				"method": "GET"
+			},
+			{
+				"id": "18332b67-f64c-4174-8070-5c5672fb12b3",
+				"method": "PUT"
+			},
+			{
+				"id": "d2258bc0-c0a8-4eb6-9792-4077f7dec964",
+				"method": "GET"
+			},
+			{
+				"id": "bbcbec22-4547-4425-b6d9-4cd7d6f0061e",
+				"method": "GET"
+			},
+			{
+				"id": "2ae72c94-7b5a-423f-aeb1-d295f92f461c",
+				"method": "PUT"
+			}
+		]
+	}
+}
